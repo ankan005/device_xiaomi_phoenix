@@ -364,6 +364,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.power-service.xiaomi-libperfmgr
 
+# Notch style overlay
+PRODUCT_PACKAGES += \
+    NotchNoFillOverlay
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
