@@ -1,3 +1,4 @@
+#SELINUX_IGNORE_NEVERALLOWS := true
 #
 # Copyright (C) 2020 The LineageOS Project
 #
