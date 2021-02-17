@@ -1,0 +1,11 @@
+runtime_resource_overlay {
+<<<<<<<< HEAD:rro_overlays/WifiOverlayPhoenix/Android.bp
+    name: "WifiOverlayPhoenix",
+    theme: "WifiOverlay",
+========
+    name: "NowPlayingOverlay",
+    certificate: "platform",
+>>>>>>>> 53bf107 (Add overlay for enabling Now Playing):overlay/NowPlayingOverlay/Android.bp
+    sdk_version: "current",
+    product_specific: true
+}
