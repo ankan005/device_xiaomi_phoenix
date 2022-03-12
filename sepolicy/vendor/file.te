@@ -1,4 +1,1 @@
 type ultrasound_device, dev_type;
-
-type proc_sched_boost, fs_type, proc_type;
-
