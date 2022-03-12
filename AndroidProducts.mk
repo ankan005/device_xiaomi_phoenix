@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_phoenix.mk
+    $(LOCAL_DIR)/evolution_phoenix.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_phoenix-userdebug
+    evolution_phoenix-userdebug
