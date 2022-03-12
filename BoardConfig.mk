@@ -1,4 +1,3 @@
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 #
 # Copyright (C) 2020 The LineageOS Project
 #
