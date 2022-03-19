@@ -1,3 +1,4 @@
+
 #
 # Copyright (C) 2020 The LineageOS Project
 #
@@ -5,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_phoenix.mk
+    $(LOCAL_DIR)/lineage_phoenix.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_phoenix-userdebug
+    lineage_phoenix-userdebug
