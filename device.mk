@@ -288,8 +288,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
 
 # IFAA manager
-#PRODUCT_PACKAGES += \
- #   org.ifaa.android.manager
+PRODUCT_PACKAGES += \
+    org.ifaa.android.manager
 
 
 # Init
@@ -582,8 +582,8 @@ PRODUCT_PACKAGES += \
     qti_telephony_utils.xml \
     telephony-ext \
 
-#PRODUCT_BOOT_JARS += \
- #   telephony-ext
+PRODUCT_BOOT_JARS += \
+    telephony-ext
 
 # Thermal
 PRODUCT_PACKAGES += \
