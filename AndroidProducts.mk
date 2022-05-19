@@ -5,10 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_phoenix.mk
+    $(LOCAL_DIR)/blaze_phoenix.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_phoenix-user \
-    aosp_phoenix-userdebug \
-    aosp_phoenix-eng
+    blaze_phoenix-user \
+    blaze_phoenix-userdebug \
+    blaze_phoenix-eng
 
