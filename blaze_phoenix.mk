@@ -30,3 +30,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := google/raven/raven:12/SP2A.220405.004/8233519:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Blaze Maintainer Stuff
+BLAZE_BUILD_TYPE := OFFICIAL
+BLAZE_MAINTAINER := Sharma G
