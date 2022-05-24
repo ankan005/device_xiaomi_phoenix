@@ -5,10 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_phoenix.mk
+    $(LOCAL_DIR)/corvus_phoenix.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_phoenix-user \
-    blaze_phoenix-userdebug \
-    blaze_phoenix-eng
+    corvus_phoenix-user \
+    corvus_phoenix-userdebug \
+    corvus_phoenix-eng
 
