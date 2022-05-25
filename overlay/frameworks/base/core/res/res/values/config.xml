@@ -668,9 +668,6 @@
          prohibitively expensive on most GPUs. -->
     <bool name="config_ui_enableFadingMarquee">true</bool>
 
-    <!-- Indicates whether device has a power button fingerprint sensor. -->
-    <bool name="config_is_powerbutton_fps" translatable="false" >true</bool>
-
     <!-- Exempt AiAi from privacy indicators -->
     <string name="config_systemAmbientAudioIntelligence">com.google.android.as</string>
     <string name="config_systemAudioIntelligence">com.google.android.as</string>
