@@ -12,6 +12,26 @@
      limitations under the License.
 -->
 <resources>
+    <string-array name="device_refresh_rates">
+        <item>60 Hz</item>
+        <item>90 Hz</item>
+        <item>120 Hz</item>
+    </string-array>
+    <string-array name="device_refresh_rates_val">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="device_power_save_refresh_rates">
+        <item>50 Hz</item>
+        <item>60 Hz</item>
+    </string-array>
+    <string-array name="device_power_save_refresh_rates_val">
+        <item>3</item>
+        <item>2</item>
+    </string-array>
+
     <!-- Values for Dirac headset pref -->
     <string-array name="dirac_headset_pref_entries" translatable="false">
         <item>@string/dirac_headset_default</item>
@@ -77,6 +97,7 @@
         <item>@string/dirac_preset_country</item>
         <item>@string/dirac_preset_dance</item>
         <item>@string/dirac_preset_metal</item>
+        <item>@string/dirac_preset_bass_booster</item>
     </string-array>
 
     <string-array name="dirac_preset_pref_values" translatable="false">
@@ -91,5 +112,33 @@
         <item>"0,0,-2,-2,2,2,0"</item>
         <item>"0,4,2,0,-2,-2,4"</item>
         <item>"2,0,0,-2,-4,0,0"</item>
+        <item>"10,8,-3,0,-3,5,5"</item>
     </string-array>
+    
+    <string-array name="lcd_hbm_modes" translatable="false">
+        <item>"Off"</item>
+        <item>"Medium"</item>
+        <item>"High"</item>
+    </string-array>
+    
+    <string-array name="lcd_hbm_values" translatable="false">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+    
+    <string-array name="lcd_cabc_modes" translatable="false">
+        <item>"Off"</item>
+        <item>"Low (UI)"</item>
+        <item>"Medium (Videos)"</item>
+        <item>"High (Images)"</item>
+    </string-array>
+    
+    <string-array name="lcd_cabc_values" translatable="false">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"3"</item>
+        <item>"2"</item>
+    </string-array>
+    
 </resources>
