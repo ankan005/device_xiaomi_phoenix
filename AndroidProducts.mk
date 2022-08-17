@@ -5,10 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_phoenix.mk
+    $(LOCAL_DIR)/cipher_phoenix.mk
 
 COMMON_LUNCH_CHOICES := \
-    corvus_phoenix-user \
-    corvus_phoenix-userdebug \
-    corvus_phoenix-eng
+    cipher_phoenix-user \
+    cipher_phoenix-userdebug \
+    cipher_phoenix-eng
 
