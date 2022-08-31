@@ -5,10 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cipher_phoenix.mk
+    $(LOCAL_DIR)/xtended_phoenix.mk
 
 COMMON_LUNCH_CHOICES := \
-    cipher_phoenix-user \
-    cipher_phoenix-userdebug \
-    cipher_phoenix-eng
+    xtended_phoenix-user \
+    xtended_phoenix-userdebug \
+    xtended_phoenix-eng
 

@@ -7,10 +7,10 @@
 $(call inherit-product, device/xiaomi/phoenix/device.mk)
 
 # Inherit some common Blaze stuff.
-$(call inherit-product, vendor/cipher/config/common_full_phone.mk)
+$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := cipher_phoenix
+PRODUCT_NAME := xtended_phoenix
 PRODUCT_DEVICE := phoenix
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X2
@@ -22,7 +22,7 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_SUPPORTS_BLUR := true
 TARGET_SUPPORTS_QUICK_TAP := true
 RAVEN_LAIR := Official
-cipher_MAINTAINER := Ankan005
+xtended_MAINTAINER := Ankan005
 USE_GAPPS := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
