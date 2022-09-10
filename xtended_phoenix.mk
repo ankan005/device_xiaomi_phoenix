@@ -26,9 +26,9 @@ xtended_MAINTAINER := Ankan005
 USE_GAPPS := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="raven-user 12 SP2A.220405.004 8233519 release-keys"
+    PRIVATE_BUILD_DESC="raven-user 13 TP1A.220624.021 8877034 release-keys"
 
-BUILD_FINGERPRINT := google/raven/raven:12/SP2A.220405.004/8233519:user/release-keys
+BUILD_FINGERPRINT := google/raven/raven:13/TP1A.220624.021/8877034:user/release-keys 
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
