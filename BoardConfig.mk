@@ -1,3 +1,4 @@
+BUILD_BROKEN_SRC_DIR_IS_WRITABLE := true
 #
 # Copyright (C) 2020 The LineageOS Project
 #
