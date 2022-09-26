@@ -1,4 +1,3 @@
-BUILD_BROKEN_SRC_DIR_IS_WRITABLE := true
 #
 # Copyright (C) 2020 The LineageOS Project
 #
@@ -254,6 +253,8 @@ BOARD_WPA_SUPPLICANT_DRIVER := NL80211
 BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_qcwcn
 BOARD_HOSTAPD_DRIVER := NL80211
 BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_qcwcn
+CONFIG_IEEE80211AC := true
+CONFIG_IEEE80211AX := true
 
 # Inherit from the proprietary version
 include vendor/xiaomi/phoenix/BoardConfigVendor.mk
