@@ -5,10 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_phoenix.mk
+    $(LOCAL_DIR)/xtended_phoenix.mk
 
 COMMON_LUNCH_CHOICES := \
-    corvus_phoenix-user \
-    corvus_phoenix-userdebug \
-    corvus_phoenix-eng
+    xtended_phoenix-user \
+    xtended_phoenix-userdebug \
+    xtended_phoenix-eng
 
